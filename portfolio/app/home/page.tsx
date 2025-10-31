@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/navbar'
 
-const Home = () => {
+const Mainpage = () => {
   return (
     <div className="min-h-screen bg-black flex flex-col">
       {/* Navbar */}
@@ -40,5 +40,5 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Mainpage
 
