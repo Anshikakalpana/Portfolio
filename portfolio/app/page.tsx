@@ -2,6 +2,8 @@ import Image from "next/image";
 import Navbar from "./components/navbar";
 import Mainpage from "./home/page";
 import LeetCodeStats from "./components/leetcodepage";
+import Contact from "./contact/page";
+import Projects from "./projects/page";
 
 export default function Home() {
   return (
@@ -19,7 +21,9 @@ export default function Home() {
    <main className="min-h-screen bg-black text-white flex justify-center items-center">
       <LeetCodeStats />
     </main>
-
+    <Projects/>
+    <Contact/>
+    
 
 </div>
 

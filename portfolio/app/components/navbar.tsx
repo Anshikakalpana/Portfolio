@@ -23,7 +23,7 @@ const Navbar = () => {
         onClick={() => setMenuOpen(!menuOpen)}
        
       >
-         <img src ="../assets/homeicon.png"
+         <img src ="/homeicon.png"
         
          />
       
@@ -36,7 +36,7 @@ const Navbar = () => {
             <li><a href="home" className="hover:text-blue-500" onClick={() => setMenuOpen(false)}>Home</a></li>
             <li><a href="projects" className="hover:text-blue-500" onClick={() => setMenuOpen(false)}>Projects</a></li>
             <li><a href="contact" className="hover:text-blue-500" onClick={() => setMenuOpen(false)}>Contact</a></li>
-            <li><a href="suggestions" className="hover:text-blue-500" onClick={() => setMenuOpen(false)}>Suggestions</a></li>
+            <li><a href="contact" className="hover:text-blue-500" onClick={() => setMenuOpen(false)}>Suggestions</a></li>
           </ul>
         </div>
       )}
