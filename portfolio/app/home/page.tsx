@@ -1,13 +1,17 @@
+"use client"
 import React from 'react'
 import Navbar from '../components/navbar'
+import { redirect , useRouter } from 'next/navigation'
+
 
 const Mainpage = () => {
+  const route= useRouter();
   return (
     <div className="min-h-screen bg-black flex flex-col">
-      {/* Navbar */}
+     
       <Navbar />
 
-      {/* Hero Section */}
+   
       <section className="flex justify-center items-center text-center flex-grow px-6 md:px-32 pt-16">
         <div className="max-w-4xl">
           <p className="text-white text-xl md:text-2xl leading-relaxed tracking-wide font-medium mb-8">
@@ -25,12 +29,12 @@ const Mainpage = () => {
             enhancing my problem-solving and analytical skills.
           </p>
 
-          {/* Buttons */}
+       
           <div className="flex justify-center gap-6">
             <button className="px-6 py-2 bg-[#2899B4] text-white font-semibold rounded-xl shadow-md hover:bg-[#1f7e96] hover:scale-105 transition-all duration-200">
               Resume
             </button>
-            <button className="px-6 py-2 border-2 border-[#2899B4] text-[#2899B4] font-semibold rounded-xl hover:bg-[#2899B4] hover:text-white hover:scale-105 transition-all duration-200">
+            <button className="px-6 py-2 border-2 border-[#2899B4] text-[#2899B4] font-semibold rounded-xl hover:bg-[#2899B4] hover:text-white hover:scale-105 transition-all duration-200" onClick={() => route.push('/contact')}>
               Contact
             </button>
           </div>
