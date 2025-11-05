@@ -13,14 +13,18 @@ const Mainpage = () => {
 
    
       <section className="flex justify-center items-center text-center flex-grow px-6 md:px-32 pt-16">
-        <div className="max-w-4xl">
+        
+        <div className="max-w-4xl absolute ">
+       
           <p className="text-black text-xl md:text-2xl leading-relaxed tracking-wide font-medium mb-8">
+           
             I’m <span className="text-[#2899B4] font-bold text-5xl">Anshika</span>, 
             a second-year <span className="text-[#2899B4]">Electronics and Communication Engineering  </span> 
             student at <span className="font-semibold">IIIT Allahabad</span>, driven by a deep interest in 
             <span className="text-[#2899B4]"> Backend Development</span>, 
             <span className="text-[#2899B4]"> DevOps</span>, and 
             <span className="text-[#2899B4]"> System Design</span>.
+           
           </p>
 
           <p className="text-black text-lg md:text-xl leading-relaxed tracking-wide font-medium mb-10">
@@ -45,4 +49,3 @@ const Mainpage = () => {
 }
 
 export default Mainpage
-

@@ -69,12 +69,19 @@ export default function LeetCodeStats() {
       </div>
     </div>
 
+
+
+      {/* CONTESTS */}
+
+
+
      <div className="flex-1 bg-gray-300 p-6 rounded-2xl shadow-lg font-bold">
     <h2 className="text-xl  mb-3">Contests</h2>
       <div className="space-y-3 py-4">
-        <p>Total Contests: <span className="text-blue-700">3</span></p>
-        <p>Highest Rating: <span className="text-yellow-700">1550</span></p>
-        <p>Latest Rating: <span className="text-blue-500">1545</span></p>
+        <p>Total Contests: <span className="text-blue-700">4</span></p>
+        <p>Highest Rating: <span className="text-yellow-700">1613</span></p>
+        <p>Contest Rating: <span className="text-blue-500">1613</span></p>
+        <p>Contest Ranking: <span className="text-red-500">2702</span></p>
       </div>
 
     </div>
