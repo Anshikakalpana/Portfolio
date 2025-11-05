@@ -9,9 +9,9 @@ export default function Home() {
   return (
    <div >
     <Navbar/>
-    <div className = "absolute inset-0 bg- gradient-to-br from-indigo-400 via-purple-500 to-pink-400">
+   
 <Mainpage/>
-</div>
+
     
           <section className="flex justify-center items-center text-center flex-grow px-6 md:px-32 pt-16 bg-[#e9e8f3]">
     <div className="items-center justify-center flex flex-col">
