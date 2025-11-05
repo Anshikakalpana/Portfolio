@@ -18,12 +18,12 @@ export default function LeetCodeStats() {
 
 
   return (
-  <div className="min-h-screen bg-black text-white p-10">
+  <div className="min-h-screen bg-[#e9e8f3] text-black p-10">
   <h1 className="text-5xl font-bold mb-8 text-center">LeetCode Stats</h1>
 
 
   <div className="flex flex-col lg:flex-row gap-8 w-full">
-      <div className="flex-1 bg-gray-900 p-6 rounded-2xl shadow-lg">
+      <div className="flex-1 bg-gray-300 p-6 rounded-2xl shadow-lg">
       <h2 className="text-xl font-semibold mb-3">Heatmap</h2>
       <div className="grid grid-cols-12 gap-1">
         {Object.entries(data.heatmap).map(([timestamp, count]: any) => {
@@ -51,12 +51,12 @@ export default function LeetCodeStats() {
     
 
 
-    <div className="flex-1 bg-gray-900 p-6 rounded-2xl shadow-lg">
+    <div className="flex-1 bg-gray-300 p-6 rounded-2xl shadow-lg font-bold">
       <h2 className="text-xl font-semibold mb-3">Stats</h2>
       <div className="space-y-3 py-4">
-        <p>Total Submissions: <span className="text-green-400">{data.totalSubmissions}</span></p>
-        <p>Current Streak: <span className="text-yellow-400">{data.streak} days</span></p>
-        <p>Total Active Days: <span className="text-blue-400">{data.totalActiveDays}</span></p>
+        <p>Total Submissions: <span className="text-blue-700">{data.totalSubmissions}</span></p>
+        <p>Current Streak: <span className="text-yellow-700">{data.streak} days</span></p>
+        <p>Total Active Days: <span className="text-blue-500">{data.totalActiveDays}</span></p>
       </div>
 
       <div className="flex justify-around text-sm mt-2">
@@ -69,17 +69,17 @@ export default function LeetCodeStats() {
       </div>
     </div>
 
-     <div className="flex-1 bg-gray-900 p-6 rounded-2xl shadow-lg">
-    <h2 className="text-xl font-semibold mb-3">Contests</h2>
+     <div className="flex-1 bg-gray-300 p-6 rounded-2xl shadow-lg font-bold">
+    <h2 className="text-xl  mb-3">Contests</h2>
       <div className="space-y-3 py-4">
-        <p>Total Contests: <span className="text-green-400">3</span></p>
-        <p>Highest Rating: <span className="text-yellow-400">1550</span></p>
-        <p>Latest Rating: <span className="text-blue-400">1545</span></p>
+        <p>Total Contests: <span className="text-blue-700">3</span></p>
+        <p>Highest Rating: <span className="text-yellow-700">1550</span></p>
+        <p>Latest Rating: <span className="text-blue-500">1545</span></p>
       </div>
 
     </div>
 
-     <div className="flex-1 bg-gray-900 p-6 rounded-2xl shadow-lg">
+     <div className="flex-1 bg-gray-300 p-6 rounded-2xl shadow-lg">
   <h2 className="text-xl font-semibold mb-5 text-center">Badges</h2>
 
   <div className="flex flex-wrap justify-center gap-6">

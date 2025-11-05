@@ -33,7 +33,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-4 py-10  text-white">
+    <div className="flex flex-col items-center justify-center min-h-screen px-4 py-10  text-black">
       <h1 className="py-2 text-2xl font-medium tracking-wide">Connect With Me</h1>
       <h2 className="text-4xl font-bold text-[#2899B4] mb-8">Get In Touch</h2>
 
@@ -77,31 +77,32 @@ const Contact = () => {
       </p>
 
      
-      <form onSubmit={onSubmit} className="flex flex-col gap-5 bg-gray-800 p-8 rounded-2xl shadow-lg w-full max-w-md " id="formm">
+      <form onSubmit={onSubmit} className="flex flex-col gap-5 bg-gray-300 border-gray-600 p-8 rounded-2xl shadow-lg w-full max-w-md text-black " id="formm">
         <input
           name='name'
           placeholder="Enter your name"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          className="px-4 py-3 rounded-lg border border-gray-600 bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-[#2899B4] transition"
+          className="px-4 py-3 rounded-lg border  bg-transparent  focus:outline-none focus:ring-2 focus:ring-[#2899B4] transition"
         />
         <input
           name='email'
           placeholder="Enter your email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="px-4 py-3 rounded-lg border border-gray-600 bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-[#2899B4] transition"
+          className="px-4 py-3 rounded-lg border  bg-transparent  focus:outline-none focus:ring-2 focus:ring-[#2899B4] transition"
         />
         <textarea
           name='message and suggestions'
           rows="4"
           value={message}
+           placeholder="Enter your message and suggestions"
           onChange={(e) => setMessage(e.target.value)}
-          className="px-4 py-3 rounded-lg border border-gray-600 bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-[#2899B4] transition resize-none"
+          className="px-4 py-3 rounded-lg border bg-transparent  focus:outline-none focus:ring-2 focus:ring-[#2899B4] transition resize-none"
         />
         <button
           type="submit"
-          className="bg-[#2899B4] hover:bg-[#1f8199] text-white font-semibold py-3 rounded-lg transition-all duration-200 shadow-md hover:shadow-[#2899B4]/40"
+          className="bg-[#2899B4] hover:bg-[#1f8199] text-black font-semibold py-3 rounded-lg transition-all duration-200 shadow-md hover:shadow-[#2899B4]/40"
           
         >
           Send Message

@@ -10,7 +10,7 @@ const Navbar = () => {
       <h1 className="text-3xl font-bold text-[#2899B4]">Anshika Jain</h1>
 
      
-      <ul className="hidden md:flex space-x-8 text-lg font-medium text-">
+      <ul className="hidden md:flex space-x-8 text-lg font-medium text-white">
         <li><a href="home" className="hover:text-blue-500 transition">Home</a></li>
         <li><a href="projects" className="hover:text-blue-500 transition">Projects</a></li>
         <li><a href="contact" className="hover:text-blue-500 transition">Contact</a></li>
