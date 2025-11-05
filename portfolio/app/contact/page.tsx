@@ -80,7 +80,7 @@ const Contact = () => {
       <form onSubmit={onSubmit} className="flex flex-col gap-5 bg-gray-300 border-gray-600 p-8 rounded-2xl shadow-lg w-full max-w-md text-black " id="formm">
         <input
           name='name'
-          placeholder="Enter your name"
+          placeholder="Enter your name" 
           value={name}
           onChange={(e) => setName(e.target.value)}
           className="px-4 py-3 rounded-lg border  bg-transparent  focus:outline-none focus:ring-2 focus:ring-[#2899B4] transition"
