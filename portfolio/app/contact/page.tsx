@@ -94,7 +94,7 @@ const Contact = () => {
         />
         <textarea
           name='message and suggestions'
-          rows="4"
+          rows={4}
           value={message}
            placeholder="Enter your message and suggestions"
           onChange={(e) => setMessage(e.target.value)}
