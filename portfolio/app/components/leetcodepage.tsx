@@ -31,10 +31,10 @@ export default function LeetCodeStats() {
       <div className="grid grid-cols-12 gap-1">
         {Object.entries(data.heatmap).map(([timestamp, count]: any) => {
           const intensity =
-            count === 0 ? "#8c65d6" :
-            count < 2 ? "#8c65d6" :
-            count < 5 ? "#2899B4" :
-            "#1F7A91";
+            count === 0 ? "#BFA5F6" :
+            count < 2 ? "#BFA5F6" :
+            count >= 5 ? "#8C6FE8" :
+            "#5C3CA8";
 
           return (
             <div
@@ -52,7 +52,7 @@ export default function LeetCodeStats() {
       </div>
     </div>
     
-[#1a112f]
+
 
     <div className="flex-1 bg-[#1a112f] p-6 rounded-2xl shadow-lg font-bold">
       <h2 className="text-xl text-white font-semibold mb-3">Stats</h2>
