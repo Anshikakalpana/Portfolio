@@ -1,4 +1,5 @@
 "use client";
+import { AuroraBackground } from "@/components/ui/aurora-background";
 import { useEffect, useState } from "react";
 
 
@@ -18,18 +19,20 @@ export default function LeetCodeStats() {
 
 
   return (
-  <div className="min-h-screen bg-[#e9e8f3] text-black p-10">
-  <h1 className="text-5xl font-bold mb-8 text-center">LeetCode Stats</h1>
+
+ <div className=" p-10 text-white   ">
+
+  <h1 className="text-3xl font-bold mb-8 text-center">LeetCode Stats</h1>
 
 
   <div className="flex flex-col lg:flex-row gap-8 w-full">
-      <div className="flex-1 bg-gray-300 p-6 rounded-2xl shadow-lg">
-      <h2 className="text-xl font-semibold mb-3">Heatmap</h2>
+      <div className="flex-1 bg-[#1a112f] p-6 rounded-2xl shadow-lg">
+      <h2 className="text-xl font-semibold mb-3 text-white">Heatmap</h2>
       <div className="grid grid-cols-12 gap-1">
         {Object.entries(data.heatmap).map(([timestamp, count]: any) => {
           const intensity =
-            count === 0 ? "#9FC0D6" :
-            count < 2 ? "#6FAEC4" :
+            count === 0 ? "#8c65d6" :
+            count < 2 ? "#8c65d6" :
             count < 5 ? "#2899B4" :
             "#1F7A91";
 
@@ -49,21 +52,21 @@ export default function LeetCodeStats() {
       </div>
     </div>
     
+[#1a112f]
 
-
-    <div className="flex-1 bg-gray-300 p-6 rounded-2xl shadow-lg font-bold">
-      <h2 className="text-xl font-semibold mb-3">Stats</h2>
+    <div className="flex-1 bg-[#1a112f] p-6 rounded-2xl shadow-lg font-bold">
+      <h2 className="text-xl text-white font-semibold mb-3">Stats</h2>
       <div className="space-y-3 py-4">
-        <p>Total Submissions: <span className="text-blue-700">{data.totalSubmissions}</span></p>
-        <p>Current Streak: <span className="text-yellow-700">{data.streak} days</span></p>
-        <p>Total Active Days: <span className="text-blue-500">{data.totalActiveDays}</span></p>
+        <p>Total Submissions: <span className="text-[#CEB5FD]">{data.totalSubmissions}</span></p>
+        <p>Current Streak: <span className="text-[#CEB5FD]">{data.streak} days</span></p>
+        <p>Total Active Days: <span className="text-[#CEB5FD]">{data.totalActiveDays}</span></p>
       </div>
 
-      <div className="flex justify-around text-sm mt-2">
+      <div className="flex justify-around text-sm mt-2 ">
         {data.stats.map((item: any) => (
           <div key={item.difficulty}>
             <p className="font-semibold">{item.difficulty}</p>
-            <p>{item.count}</p>
+            <p className="text-[#CEB5FD]">{item.count}</p>
           </div>
         ))}
       </div>
@@ -75,44 +78,26 @@ export default function LeetCodeStats() {
 
 
 
-     <div className="flex-1 bg-gray-300 p-6 rounded-2xl shadow-lg font-bold">
+     <div className="flex-1 bg-[#1a112f] p-6 rounded-2xl shadow-lg font-bold">
     <h2 className="text-xl  mb-3">Contests</h2>
       <div className="space-y-3 py-4">
-        <p>Total Contests: <span className="text-blue-700">4</span></p>
-        <p>Highest Rating: <span className="text-yellow-700">1613</span></p>
-        <p>Contest Rating: <span className="text-blue-500">1613</span></p>
-        <p>Contest Ranking: <span className="text-red-500">2702</span></p>
+        <p>Total Contests: <span className="text-[#CEB5FD]">6</span></p>
+        <p>Highest Rating: <span className="text-[#CEB5FD]">1644</span></p>
+        <p>Contest Rating: <span className="text-[#CEB5FD]">1644</span></p>
+        <p>Contest Ranking: <span className="text-[#CEB5FD]">2702</span></p>
       </div>
 
     </div>
 
-     <div className="flex-1 bg-gray-300 p-6 rounded-2xl shadow-lg">
-  <h2 className="text-xl font-semibold mb-5 text-center">Badges</h2>
-
-  <div className="flex flex-wrap justify-center gap-6">
-    {data.badges.map((item: any) => (
-      <div
-        key={item.id}
-        className="flex flex-col items-center text-center w-24"
-      >
-        <img
-          src={item.icon}
-          alt={item.name}
-          className="w-12 h-12 mb-2"
-        />
-        <p className="font-semibold text-sm">{item.name}</p>
-      </div>
-    ))}
-  </div>
-</div>
+   
 
 
 
    
   
-
+ </div>
   </div>
-</div>
 
   );
 }
+

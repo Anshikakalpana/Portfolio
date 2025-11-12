@@ -5,9 +5,9 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="flex justify-between items-center bg-black shadow-md px-6 py-4 fixed top-0 left-0 w-full z-50">
+    <nav className="flex justify-between items-center  shadow-md px-6 py-4 fixed top-0 left-0 w-full z-50">
    
-      <h1 className="text-3xl font-bold text-[#2899B4]">Anshika Jain</h1>
+      <h1 className="text-3xl font-bold text-[#9f78e7]">Anshika Jain</h1>
 
      
       <ul className="hidden md:flex space-x-8 text-lg font-medium text-white">

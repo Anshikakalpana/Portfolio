@@ -7,13 +7,13 @@ import Projects from "./projects/page";
 
 export default function Home() {
   return (
-   <div >
+   <div className="">
     <Navbar/>
    
 <Mainpage/>
 
     
-          <section className="flex justify-center items-center text-center flex-grow px-6 md:px-32 pt-16 bg-[#e9e8f3]">
+          <section className="flex justify-center items-center text-center flex-grow px-6 md:px-32 pt-16 ">
     <div className="items-center justify-center flex flex-col">
    
 
