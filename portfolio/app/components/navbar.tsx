@@ -23,8 +23,8 @@ const Navbar = () => {
         onClick={() => setMenuOpen(!menuOpen)}
        
       >
-         <img src ="/homeicon.png"
-        
+         <img src ="/home.png"
+        className='w-8 h-8'
          />
       
       </button>
