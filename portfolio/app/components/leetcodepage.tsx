@@ -1,5 +1,5 @@
 "use client";
-import { AuroraBackground } from "@/components/ui/aurora-background";
+
 import { useEffect, useState } from "react";
 
 
@@ -81,10 +81,10 @@ export default function LeetCodeStats() {
      <div className="flex-1 bg-[#1a112f] p-6 rounded-2xl shadow-lg font-bold">
     <h2 className="text-xl  mb-3">Contests</h2>
       <div className="space-y-3 py-4">
-        <p>Total Contests: <span className="text-[#CEB5FD]">6</span></p>
-        <p>Highest Rating: <span className="text-[#CEB5FD]">1644</span></p>
-        <p>Contest Rating: <span className="text-[#CEB5FD]">1644</span></p>
-        <p>Contest Ranking: <span className="text-[#CEB5FD]">2702</span></p>
+        <p>Total Contests: <span className="text-[#CEB5FD]">7</span></p>
+        <p>Highest Rating: <span className="text-[#CEB5FD]">1694</span></p>
+        <p>Contest Rating: <span className="text-[#CEB5FD]">1694</span></p>
+        <p>Contest Ranking: <span className="text-[#CEB5FD]">2101</span></p>
       </div>
 
     </div>

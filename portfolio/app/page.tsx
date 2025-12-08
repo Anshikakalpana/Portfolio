@@ -4,6 +4,7 @@ import Mainpage from "./home/page";
 import LeetCodeStats from "./components/leetcodepage";
 import Contact from "./contact/page";
 import Projects from "./projects/page";
+import TechStack from "./techstack/page";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
 <div className="flex flex-col items-center space-y-6">
 
 
-   
+   <TechStack />
       <LeetCodeStats />
   
     <Projects/>

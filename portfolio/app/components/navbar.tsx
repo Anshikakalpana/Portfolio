@@ -11,10 +11,10 @@ const Navbar = () => {
 
      
       <ul className="hidden md:flex space-x-8 text-lg font-medium text-white">
-        <li><a href="home" className="hover:text-blue-500 transition">Home</a></li>
-        <li><a href="projects" className="hover:text-blue-500 transition">Projects</a></li>
-        <li><a href="contact" className="hover:text-blue-500 transition">Contact</a></li>
-        <li><a href="suggestions" className="hover:text-blue-500 transition">Suggestions</a></li>
+        <li><a href="home" className="hover:text-[#6327d3] transition">Home</a></li>
+        <li><a href="projects" className="hover:text-[#6327d3]  transition">Projects</a></li>
+        <li><a href="contact" className="hover:text-[#6327d3] transition">Contact</a></li>
+        <li><a href="suggestions" className="hover:text-[#6327d3]  transition">Suggestions</a></li>
       </ul>
 
      
@@ -33,10 +33,10 @@ const Navbar = () => {
       {menuOpen && (
         <div className="absolute top-16 right-6 bg-black shadow-lg rounded-lg p-4 md:hidden ">
           <ul className="flex flex-col space-y-4 text-white">
-            <li><a href="home" className="hover:text-blue-500" onClick={() => setMenuOpen(false)}>Home</a></li>
-            <li><a href="projects" className="hover:text-blue-500" onClick={() => setMenuOpen(false)}>Projects</a></li>
-            <li><a href="contact" className="hover:text-blue-500" onClick={() => setMenuOpen(false)}>Contact</a></li>
-            <li><a href="contact" className="hover:text-blue-500" onClick={() => setMenuOpen(false)}>Suggestions</a></li>
+            <li><a href="home" className="hover:text-violet-500" onClick={() => setMenuOpen(false)}>Home</a></li>
+            <li><a href="projects" className="hover:text-violet-500" onClick={() => setMenuOpen(false)}>Projects</a></li>
+            <li><a href="contact" className="hover:text-violet-500" onClick={() => setMenuOpen(false)}>Contact</a></li>
+            <li><a href="contact" className="hover:text-violet-500" onClick={() => setMenuOpen(false)}>Suggestions</a></li>
           </ul>
         </div>
       )}
