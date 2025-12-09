@@ -5,6 +5,7 @@ import LeetCodeStats from "./components/leetcodepage";
 import Contact from "./contact/page";
 import Projects from "./projects/page";
 import TechStack from "./techstack/page";
+import Experience from "./experience/page";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
 
 
    <TechStack />
+   <Experience/>
       <LeetCodeStats />
   
     <Projects/>
