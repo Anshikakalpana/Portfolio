@@ -9,11 +9,11 @@ const JaruratCare = () => {
   <div className="max-w-5xl bg-[#1a112f] shadow-lg rounded-2xl flex flex-col md:flex-row items-center p-8 gap-8">
 
     
-    <div className="flex-shrink-0 flex flex-col items-center gap-3">
+    <div className="flex-shrink-0 flex flex-col items-center">
       <img
-        src="/ecommerce.png"
+        src="/jcl.png"
         alt="E-commerce Project"
-        className="h-56 w-56 object-contain rounded-xl"
+        className="h-26 w-26 object-contain rounded-xl mb-4"
       />
       <a
         href="https://www.jarurat.care/"
@@ -21,19 +21,25 @@ const JaruratCare = () => {
         rel="noopener noreferrer"
       >
        
-       <FiExternalLink    className="h-10 w-10 object-contain  cursor-pointer hover:scale-110 transition-transform text-white rounded-4xl"
+       <FiExternalLink    className="h-7 w-7 object-contain  cursor-pointer hover:scale-110 transition-transform text-white "
         />
       </a>
     </div>
 
     {/* Text Section */}
     <div className="text-white space-y-3 text-sm md:text-base leading-relaxed">
-      <h1 className="text-2xl font-bold text-[#CEB5FD]">
-        Full Stack Engineer
+       <h1 className="text-2xl font-bold text-white items-center justify-between">
+         <p>Full Stack Engineer</p>
+     
+       
+      </h1>
+      <h1 className="text-xl font-bold text-[#CEB5FD] flex flex-row items-center justify-between">
+          <p>Jarurat Care</p>
+        <p>Dec'25 - Present </p>
       </h1>
 
       <p className="font-medium">
-        <span className="font-semibold">Stack:</span> Node.js, Express, MongoDB, Redis,Springboot , Java
+        <span className="font-semibold">Stack:</span> Node.js, Express, MongoDB, Springboot , Java
       </p>
 
  <p>
@@ -43,7 +49,7 @@ const JaruratCare = () => {
 
 
       <p className="text-[#b396ea]">
-       <strong>Focus:</strong> AI Integration • Scalable Backend Systems • Real-Time Communication • Clean Architecture • API Engineering
+       <strong>Focus:</strong> AI Integration • Scalable Backend Systems •  API Engineering
         </p>
     </div>
   </div>
