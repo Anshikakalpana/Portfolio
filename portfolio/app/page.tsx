@@ -25,8 +25,13 @@ export default function Home() {
    <TechStack />
    <Experience/>
       <LeetCodeStats />
-  
+   
     <Projects/>
+    <a href="/allProjects">
+      <button className="px-6 py-2 bg-[#8c65d6] text-black font-semibold rounded-xl shadow-md hover:bg-[#774cc9] hover:scale-105 transition-all duration-200" >
+              All Projects
+            </button>
+    </a>
     <Contact/>
     
 

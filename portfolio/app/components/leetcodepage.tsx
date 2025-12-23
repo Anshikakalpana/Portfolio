@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
+import { FiExternalLink } from "react-icons/fi";
 
 export default function LeetCodeStats() {
   const [data, setData] = useState<any>(null);
@@ -20,9 +20,13 @@ export default function LeetCodeStats() {
 
   return (
 
- <div className=" p-10 text-white   ">
+ <div className=" p-10 text-white  flex flex-col items-center justify-center  gap-8 max-w-5xl mx-auto">
 
-  <h1 className="text-3xl font-bold mb-8 text-center">LeetCode Stats</h1>
+  <h1 className="text-3xl font-bold mb-8 text-center flex flex-row px-3 gap-x-3">LeetCode Stats   <a href="https://leetcode.com/u/anshika_kalpana/">
+  <FiExternalLink    className="h-9 w-9 object-contain  cursor-pointer hover:scale-110 transition-transform text-white py-1 "
+          />
+        </a></h1>
+
 
 
   <div className="flex flex-col lg:flex-row gap-8 w-full">
@@ -57,19 +61,12 @@ export default function LeetCodeStats() {
     <div className="flex-1 bg-[#1a112f] p-6 rounded-2xl shadow-lg font-bold">
       <h2 className="text-xl text-white font-semibold mb-3">Stats</h2>
       <div className="space-y-3 py-4">
-        <p>Total Submissions: <span className="text-[#CEB5FD]">{data.totalSubmissions}</span></p>
-        <p>Current Streak: <span className="text-[#CEB5FD]">{data.streak} days</span></p>
-        <p>Total Active Days: <span className="text-[#CEB5FD]">{data.totalActiveDays}</span></p>
+        <p>Total Submissions: <span className="text-[#CEB5FD]">400</span></p>
+        <p>Current Streak: <span className="text-[#CEB5FD]">134 days</span></p>
+        <p>Total Active Days: <span className="text-[#CEB5FD]">219</span></p>
       </div>
 
-      <div className="flex justify-around text-sm mt-2 ">
-        {data.stats.map((item: any) => (
-          <div key={item.difficulty}>
-            <p className="font-semibold">{item.difficulty}</p>
-            <p className="text-[#CEB5FD]">{item.count}</p>
-          </div>
-        ))}
-      </div>
+ 
     </div>
 
 

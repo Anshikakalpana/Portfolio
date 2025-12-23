@@ -5,7 +5,7 @@ import React from 'react';
 const Chatapp = () => {
   return (
 
-  <div className="max-w-5xl bg-[#1a112f] shadow-lg rounded-2xl flex flex-col md:flex-row items-center p-8 gap-8 my-14">
+  <div className="max-w-5xl bg-[#1a112f] shadow-lg rounded-2xl flex flex-col md:flex-row items-center p-8  my-14">
 
     {/* Image Section */}
     <div className="flex-shrink-0 flex flex-col items-center gap-3">

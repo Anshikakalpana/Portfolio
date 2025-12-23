@@ -35,7 +35,7 @@ const JaruratCare = () => {
       </h1>
       <h1 className="text-xl font-bold text-[#CEB5FD] flex flex-row items-center justify-between">
           <p>Jarurat Care</p>
-        <p>Dec'25 - Present </p>
+        <p>Nov'25 - Present </p>
       </h1>
 
       <p className="font-medium">

@@ -9,12 +9,15 @@ function Projects() {
   return (
     <div className='flex flex-col items-center justify-center my-10'>
       <h1 className="text-3xl font-bold mb-8 text-center text-amber-50">Projects</h1>
+       
+        <RateLimiter/>
         <Ecommerce/>
-         <div className=' py-16'>
-       <RateLimiter/>
+        <Chatapp/>
+        <AuthAPI/>
+          <div className=' py-16'>
+        <HuffmanUtility/>
 
         </div>
-        <AuthAPI/>
     </div>
   )
 }
