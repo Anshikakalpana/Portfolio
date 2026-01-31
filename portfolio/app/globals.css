@@ -142,3 +142,29 @@ body {
 #__next {
   min-height: 100vh;
 }
+
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.group {
+  display: flex;
+  gap: 3rem;
+  animation: scroll 10s linear infinite;
+}
+
+.group x {
+  white-space: nowrap;     
+  min-width: max-content; 
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
