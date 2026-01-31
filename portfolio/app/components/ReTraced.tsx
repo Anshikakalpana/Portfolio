@@ -5,15 +5,16 @@ import React from 'react';
 const ReTraced = () => {
   return (
  
-  <div className="max-w-5xl bg-[#1a112f] shadow-lg rounded-2xl flex flex-col md:flex-row items-center p-8  my-14">
+  <div className="max-w-5xl bg-[#1a112f] shadow-lg rounded-2xl flex flex-col md:flex-row items-center p-8 gap-4  my-14">
 
     {/* Image Section */}
     <div className="flex-shrink-0 flex flex-col items-center gap-3">
       <img
-        src="/ecommerce.png"
-        alt="E-commerce Project"
-        className="h-56 w-56 object-contain rounded-xl"
+        src="/retraced.png"
+        alt="retraced Project"
+        className="h-56 w-50 object-contain rounded-xl"
       />
+      <div className="flex-shrink-0 flex flex-row items-center gap-5">
       <a
         href="https://github.com/Anshikakalpana/bullmq-ReTraced"
         target="_blank"
@@ -27,11 +28,11 @@ const ReTraced = () => {
       </a>
 
        <a href="https://re-trace-five.vercel.app/">
-        <FiExternalLink    className="h-9 w-9 object-contain  cursor-pointer hover:scale-110 transition-transform text-white py-1 "
+        <FiExternalLink    className="h-12 w-12 object-contain  cursor-pointer hover:scale-110 transition-transform text-white py-1  "
                 />
               </a>
     </div>
-
+ </div>
     {/* Text Section */}
     <div className="text-white space-y-3 text-sm md:text-base leading-relaxed">
       <h1 className="text-2xl font-bold text-[#CEB5FD]">
