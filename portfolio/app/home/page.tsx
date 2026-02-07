@@ -35,7 +35,7 @@ const Mainpage = () => {
 
        
           <div className="flex justify-center gap-6">
-            < a href="https://drive.google.com/file/d/1M0_5JvGCji5oRs85vEQJ9A0YtDcw9qOg/view?usp=drive_link">
+            < a href="https://drive.google.com/file/d/1qSZ2pf5eta6e-ccNBKtoWUvEENbWDQ2Y/view?usp=drivesdk">
             <button className="px-6 py-2 bg-[#8c65d6] text-black font-semibold rounded-xl shadow-md hover:bg-[#774cc9] hover:scale-105 transition-all duration-200">
               Resume
             </button>

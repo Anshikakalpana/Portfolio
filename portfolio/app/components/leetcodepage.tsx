@@ -61,9 +61,9 @@ export default function LeetCodeStats() {
     <div className="flex-1 bg-[#1a112f] p-6 rounded-2xl shadow-lg font-bold">
       <h2 className="text-xl text-white font-semibold mb-3">Stats</h2>
       <div className="space-y-3 py-4">
-        <p>Total Submissions: <span className="text-[#CEB5FD]">400</span></p>
-        <p>Current Streak: <span className="text-[#CEB5FD]">134 days</span></p>
-        <p>Total Active Days: <span className="text-[#CEB5FD]">219</span></p>
+        <p>Total Submissions: <span className="text-[#CEB5FD]">478</span></p>
+        <p>Current Streak: <span className="text-[#CEB5FD]">178 days</span></p>
+        <p>Total Active Days: <span className="text-[#CEB5FD]">256</span></p>
       </div>
 
  
@@ -79,8 +79,8 @@ export default function LeetCodeStats() {
     <h2 className="text-xl  mb-3">Contests</h2>
       <div className="space-y-3 py-4">
         <p>Total Contests: <span className="text-[#CEB5FD]">7</span></p>
-        <p>Highest Rating: <span className="text-[#CEB5FD]">1694</span></p>
-        <p>Contest Rating: <span className="text-[#CEB5FD]">1694</span></p>
+        <p>Highest Rating: <span className="text-[#CEB5FD]">1722</span></p>
+        <p>Contest Rating: <span className="text-[#CEB5FD]">1722</span></p>
         <p>Contest Ranking: <span className="text-[#CEB5FD]">2101</span></p>
       </div>
 
